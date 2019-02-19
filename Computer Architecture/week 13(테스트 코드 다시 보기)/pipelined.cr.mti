@@ -1,0 +1,15 @@
+{C:/Users/KimAYeon/Computer Architecture/week 13/combi_logic.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 13/combi_logic.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module combi_logic
+
+Top level modules:
+	combi_logic
+
+} {} {}} {C:/Users/KimAYeon/Computer Architecture/week 13/test_combi.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 13/test_combi.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test_combi
+
+Top level modules:
+	test_combi
+
+} {} {}}

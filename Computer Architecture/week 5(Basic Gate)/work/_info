@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vbasic_gate
+Z0 !s110 1475150578
+!i10b 1
+!s100 g;HKRXYFMPNIDAYKTSAhk1
+I@NRL?KBG1az_1<2m[?7U21
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/KimAYeon/Computer Architecture/week 5
+w1475150480
+8C:/Users/KimAYeon/Computer Architecture/week 5/BasicGate.v
+FC:/Users/KimAYeon/Computer Architecture/week 5/BasicGate.v
+L0 3
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1475150578.000000
+!s107 C:/Users/KimAYeon/Computer Architecture/week 5/BasicGate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/KimAYeon/Computer Architecture/week 5/BasicGate.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vbasic_gate_test
+R0
+!i10b 1
+!s100 959dC?7=CLREk3hS9me9N3
+Ifa5V`3iFXlkZdmJQN^]zb0
+R1
+R2
+w1475150535
+8C:/Users/KimAYeon/Computer Architecture/week 5/BasicGate_Test.v
+FC:/Users/KimAYeon/Computer Architecture/week 5/BasicGate_Test.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/KimAYeon/Computer Architecture/week 5/BasicGate_Test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/KimAYeon/Computer Architecture/week 5/BasicGate_Test.v|
+!s101 -O0
+!i113 1
+R5

@@ -1,0 +1,67 @@
+﻿<html>
+<head>
+    <!--meta name="GENERATOR" content="Microsoft Visual Studio 8.0"-->
+    <title>Group 5 연습문제 10 - 19</title>
+</head>
+
+<body>
+    <canvas id = "myCanvas", width = "500", height = "500"></canvas>
+
+    <script type = "text/javascript">
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+
+        //ㄱ
+        context.moveTo(30, 30);
+        context.lineTo(60, 30);
+        context.lineTo(30, 60);
+        context.stroke();
+
+        //ㅣ
+        context.moveTo(75, 20);
+        context.lineTo(75, 70);
+        context.stroke();
+
+        //ㅁ
+        context.moveTo(40, 80);
+        context.lineTo(75, 80);
+        context.lineTo(75, 100);
+        context.lineTo(40, 100);
+        context.lineTo(40, 80);
+        context.stroke();
+
+        //ㅇ
+        context.beginPath();
+        context.arc(120, 60, 20, 0, 2 * Math.PI);
+        //context.stroke();
+
+        //ㅏ
+        context.moveTo(150, 25);
+        context.lineTo(150, 95);
+        context.moveTo(150, 60);
+        context.lineTo(165, 60);
+        context.stroke();
+
+        //ㅇ
+        context.beginPath();
+        context.arc(195, 45, 15, 0, 2 * Math.PI);
+        //context.stroke();
+
+        //ㅕ
+        context.moveTo(215, 40);    
+        context.lineTo(230, 40);
+        context.moveTo(215, 50);
+        context.lineTo(230, 50);
+        context.moveTo(230, 25);
+        context.lineTo(230, 70);
+        
+        //ㄴ
+        context.moveTo(195, 75);
+        context.lineTo(195, 100);
+        context.lineTo(230, 100);
+
+        context.stroke();
+
+    </script>
+</body>
+</html>

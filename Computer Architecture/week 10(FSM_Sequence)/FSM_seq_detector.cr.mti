@@ -1,0 +1,15 @@
+{C:/Users/KimAYeon/Computer Architecture/week 10/FSM_seq_detector_test.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 10/FSM_seq_detector_test.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module seq_detector_test
+
+Top level modules:
+	seq_detector_test
+
+} {} {}} {C:/Users/KimAYeon/Computer Architecture/week 10/FSM_seq_detector.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 10/FSM_seq_detector.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module seq_detector
+
+Top level modules:
+	seq_detector
+
+} {} {}}

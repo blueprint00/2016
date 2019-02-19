@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Group 5 연습문제 12- 17</title>
+    <style>
+        #div1
+        {
+            width: 700px;
+            height: 150px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id = "src">
+        상품목록<br />
+        <div id = "div1" ondrop = "drop(event)" ondragover = "allowDrop(event)">
+            <img id = "drag1" src = "1.png" alt = "1" draggable = "true" ondragstart = "drag(event)"/>
+            <img id = "drag2" src = "2.png" alt = "2" draggable = "true" ondragstart = "drag(event)"/>
+            <img id = "drag3" src = "3.png" alt = "3" draggable = "true" ondragstart = "drag(event)"/>
+        </div>
+    </div>
+
+    <br />
+    
+    <div id = "src">
+        장바구니<br />
+        <div id = "div1" draggable = "true" ondrop = "drop(event)" ondragover = "allowDrop(event)"></div>
+    </div>
+   
+    <br />
+
+    <select id = "entries" onchage = "onEntrySelected()"></select>
+   
+    <script type = "text/javascript">
+
+        var src = document.getElementById("src");
+        
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) { 
+            ev.dataTransfer.setData("src", ev.target.id);
+        }
+
+        function drop(ev) {
+            var data = ev.dataTransfer.getData("src");
+            ev.target.appendChild(document.getElementById(data));
+            ev.preventDefault();
+        }
+
+        var localStorage = window.localStroage;
+        var key = document.getElementById("src");
+        //var value = document.getElementById("v");
+        var entries = document.getElementById("entries");
+        /*
+        function showAll() {
+            en.innerHTML = "";
+        }*/
+        function saveItem() {
+            localStorage.setItem(key.value);
+            showAll();
+        }
+        function removeItem() {
+            localStroage.removeItem(key.value);
+            showAll;
+        }
+        function onEntrySelected() {
+            var selectedOption = entries.options[entries.selectedIndex];
+            key.value = selectedOption.value;
+            //value.value = localStorage.getItem(selectedOption.value);
+        }       
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/KimAYeon/Computer Architecture/week 5
+vff
+Z0 !s110 1475726535
+!i10b 1
+!s100 2_`@5C8IEgg;@oTSEAFgN3
+I8>mHoP0:Ve2bKH:?jOnFV0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/KimAYeon/Computer Architecture
+w1475726204
+8C:/Users/KimAYeon/Computer Architecture/ff.v
+FC:/Users/KimAYeon/Computer Architecture/ff.v
+L0 3
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1475726535.000000
+!s107 C:/Users/KimAYeon/Computer Architecture/ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/KimAYeon/Computer Architecture/ff.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vff_test
+R0
+!i10b 1
+!s100 N_=3<W6[lbK@3kPmJm?3i2
+Ib0ejon>d4GXfHnSd@R=iJ1
+R1
+R2
+w1475725672
+8C:/Users/KimAYeon/Computer Architecture/ff_test.v
+FC:/Users/KimAYeon/Computer Architecture/ff_test.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/KimAYeon/Computer Architecture/ff_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/KimAYeon/Computer Architecture/ff_test.v|
+!s101 -O0
+!i113 1
+R5

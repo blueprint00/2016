@@ -1,0 +1,17 @@
+﻿빌드 시작: 2016-06-04 오후 4:51:51
+     1>2 노드의 "C:\Users\KimAYeon\※세종대\과제\웹프\과제 4\과제 4\과제 4.vcxproj" 프로젝트(build 대상)입니다.
+     1>PrepareForBuild:
+         "C:\Users\KimAYeon\※세종대\과제\웹프\과제 4\Debug\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\과제 4.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\과제 4.exe.embed.manifest.res" "Debug\과제 4_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KimAYeon\※세종대\과제\웹프\과제 4\Debug\과제 4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\과제 4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\KimAYeon\※세종대\과제\웹프\과제 4\Debug\과제 4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\KimAYeon\※세종대\과제\웹프\과제 4\Debug\과제 4.lib" /MACHINE:X86 "Debug\과제 4.exe.embed.manifest.res"
+     1>LINK : error LNK2001: _mainCRTStartup 외부 기호를 확인할 수 없습니다.
+     1>C:\Users\KimAYeon\※세종대\과제\웹프\과제 4\Debug\과제 4.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+     1>"C:\Users\KimAYeon\※세종대\과제\웹프\과제 4\과제 4\과제 4.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.96

@@ -1,0 +1,15 @@
+{C:/Users/KimAYeon/Computer Architecture/week 9/FSM.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 9/FSM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}} {C:/Users/KimAYeon/Computer Architecture/week 9/FSM_Test.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 9/FSM_Test.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module fsm_test
+
+Top level modules:
+	fsm_test
+
+} {} {}}

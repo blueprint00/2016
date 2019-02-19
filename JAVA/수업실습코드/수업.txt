@@ -1,0 +1,183 @@
+※ parameter = 매개변수 (전달된 인자를 받아들이는 변수/ 함수를 정의할 때 갑 섲ㄴ달
+   argument  = 인자 (함수 호출시 전달되는 값/ 함수를 호출할 때
+
+ex)
+void list(int x){ ... } <= parameter
+
+list(n) <= argument
+
+
+------------------------------------------------
+
+
+/* GUI package
+	 자바에서는 모든게 클래스 단위
+	 같은 기능들을 수행하는 클래스들의 package
+	 
+	 AWT : (Abstract Window Toolkit)
+	 Swing : 예쁘고 기능 더 탑재...
+	 javax = java extend
+	 */
+
+
+------------------------------------------------
+
+
+import java.util.Random; //.* 하면 모든 클래스 import, 메모리 아끼려면 클래스 이름으로...
+
+
+------------------------------------------------
+
+
+MyGUIDesign
+
+파우치에 샴푸랑 린스랑 칫솔이랑 드등등 들고 목욕탕 다님~_~
+이 때 이 파우치가 컨테이너!
+ 
+heavy-weigh container by O.S
+(frame, applet)
+ 
+light-weight container by user
+ 
+ 
+ 
+java application -> window (자바에서는 frame) 
+java applet -> web browser
+ 
+Frame / JFrame     >> 운영체제 관리
+Panel / JPanel      >> 내가 만든 것, 내가 관리
+ 
+ 
+컨테이너는 배치 관리자(Layout manager)가 존재.
+primary에 배치관리자가 있어 add가 되면 자동으로 배치를 해줌
+layout manager 여러개 존재해 바꿀 수 있는데 flow layout 가장 많이 씀 -> 자동으로 add 순서대로 화면의 가운데 배치(창 화면에 따라 좌표가 달라짐!)
+ 
+primary.setLayout(null);  >> layout manager disable -> 내 맘대로 자리 배치! 
+위치 결정, 크기 결정. >> 두개 선언
+setBounds(x, y, z, w);   > 변수가 네개  => 위치, 크기 한번에 결정 가능
+
+ 
+------------------------------------------------
+
+
+layout manager
+ -> setlayout(null)
+setBounds(x, y, w, h)
+ 
+
+------------------------------------------------
+
+
+클래스 설계
+ 
+클래스 :: data(instance data), method >> 클래스를 설계한다는 건 무엇을 저장할지와 저장된걸로 어떤걸 할지 정하는 것
+ 
+return type funcname(parent~~~(input)){
+ 
+}
+ 
+java applet이 되려면 상속 받아야 함
+application이 되려면 main이 존재
+ => 둘 다 없으면 단순 클래스 파일
+ 
+ 
+생성자가 없으면 자바에서 기본생성자를 하나 넣어줌 -> 객체를 생성했을때 인스턴스 데이터에 대한 것을 초기화 >> constructor 
+ 
+accessor, getter, getmethod  => 
+mutator setter, setmethod    => 
+
+
+/**
+ *java applet이 되려면 상속 받아야 함
+ *application이 되려면 main이 존재
+ * => 둘 다 없으면 단순 클래스 파일
+ */
+
+
+------------------------------------------------
+
+
+class design
+ 
+data (private로 보호)
+ 
+method 는 public 으로 선언
+1. constructor (default || parameter) >> 생성자는 인스턴스 데이터에 대한 초기화를 해줌
+2. get/set >> data는 private로 보호 => get/set으로 변경, 접근
+3. other functionality
+4. toString()
+=> 일반적으로 이 포맷. 안 만들어도 되고 뭐..~_~_~
+ 
+ 
+AWT -> Canvas
+Swing -> JPanel/JLabel => paintcomponent()
+
+
+
+-------------------------------------------------
+
+
+
+생성자 오버로드, => 리모컨 메뉴 보면 쓸데없이 많ㅅ듯이.... 입맛대로 골라 써라
+ 
+항상 모든 클래스의 객체는 선언하고 생성해야 사용할 수 있다
+ 
+ 
+public MyRect(Point pt){	//pt = local data
+		this.pt = pt; //both local data(in method, local data first) => this == class data
+			//class.pt = method.pt
+			//이미 pt가 메인에서 생성이 되어서 넘어오므로 따로 생성 안해줘도 됨
+		width = height = 1;
+	}	//MyRect()
+ 
+	public MyRect(int w, int h) {
+		pt = new Point();     // 그러나 얘는 생성 안 되있으므로 생성 해줌!
+		width = (w < 1)? 1 : w;
+		height = (h < 1) ? 1 : h;
+	}	//MyRect()
+ 
+ 
+ 
+Japplet 안나옴!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!(요구는 안하는데 뭐 하고싶으면 해...)
+ 
+이미지 파일 로딩....
+패널
+레이아웃 매니저!!!!!!!
+wrapper          xxxx
+overloading      oooooo
+상속
+ 
+ 
+팁! 실행여부도 점수 임 \=> 무조건 실행 되야함
+아무것도 안 하면 아무일도 안 일어남.......? 모른다고 코드 작성 안 하진 말기
+주석달아서 소설이라도 써......... => 로직 합당하면 부분점수
+
+
+--------------------------------기말--------------------------------
+
+
+버튼 들 중 grayed 된 버튼 => 보이긴 하나 사용할 수 없다
+
+enabled(false) -> 보이긴 하나 클릭할 순 없다
+
+
+
+
+
+Dialog Boxes (대화상자)
+내가 대화상자를 여러 형태로 만들수 있음 = User Define Dialog Boxes
+JDialog 객체..........
+그 중 JDialogPane 클래스 > 메소드만 호출해서 쓸 수 있음
+Input 대화상자 : 텍스트와 ok 버튼
+메세지 대화상자 : 단순히 메세지만 출력
+confirm dialog : 메세지, Yes, No, Cancle 세가지 버튼
+		YES_OPTION = 0, NO = 1; CANCLE = 2;
+
+
+
+
+
+
+
+
+ 

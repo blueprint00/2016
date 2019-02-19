@@ -1,0 +1,28 @@
+
+module seq_detector_test;
+
+reg RESETn, CLK, x;
+wire z, state;
+
+seq_detector SEQD0(CLK, RESETn, x, z);
+
+always #10 CLK = ~CLK;
+
+initial
+begin
+	RESETn = 1'b0; CLK = 1'b1; x = 1'b0;
+	#30 RESETn = 1'b1;
+	#20 x = 1'b0;
+	#20 x = 1'b1;
+	#20 x = 1'b0;
+	#20 x = 1'b0;
+	#20 x = 1'b1;
+	#20 x = 1'b1;
+	#20 x = 1'b0;
+	#20 x = 1'b0;
+	#20 x = 1'b0;
+	#20 x = 1'b0;
+	#100 $stop;
+end
+
+endmodule

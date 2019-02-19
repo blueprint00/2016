@@ -1,0 +1,16 @@
+`timescale 1ns/1ns
+
+module ff(clk, reset, in, en, out)
+
+	input clk, reset, in, en;
+	output out;
+
+	wire in, clk, reset;
+	reg out;
+
+	always @(posedge clk) begin
+		in <= en;
+
+	end
+
+endmodule

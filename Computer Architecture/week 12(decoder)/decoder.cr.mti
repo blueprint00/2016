@@ -1,0 +1,15 @@
+{C:/Users/KimAYeon/Computer Architecture/week 12(decoder)/decoder.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 12(decoder)/decoder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} {C:/Users/KimAYeon/Computer Architecture/week 12(decoder)/test_decoder(1).v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/week 12(decoder)/test_decoder(1).v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test_decoder
+
+Top level modules:
+	test_decoder
+
+} {} {}}

@@ -1,0 +1,15 @@
+{C:/Users/KimAYeon/Computer Architecture/HW/pencode_test.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/HW/pencode_test.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pencode_test
+
+Top level modules:
+	pencode_test
+
+} {} {}} {C:/Users/KimAYeon/Computer Architecture/HW/pencode.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/HW/pencode.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pencode
+
+Top level modules:
+	pencode
+
+} {} {}}

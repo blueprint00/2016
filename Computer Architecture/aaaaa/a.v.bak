@@ -1,0 +1,24 @@
+
+module DIGIT_COM(A,VALID,Y);
+input  [7:0] A;
+
+output  VALID;
+output  [2:0] Y;
+
+reg VALID;
+reg [2:0] Y;
+
+always @( * )
+  begin
+ if(A[7]==1'b1) begin Y=3'b111; VALID=1'b1; end
+ else if(A[6]==1'b1) begin Y=3'b110; VALID=1'b1; end
+ else if(A[5]==1'b1) begin Y=3'b101; VALID=1'b1; end
+ else if(A[4]==1'b1) begin Y=3'b100; VALID=1'b1; end
+ else if(A[3]==1'b1) begin Y=3'b011; VALID=1'b1; end
+ else if(A[2]==1'b1) begin Y=3'b010; VALID=1'b1; end
+ else if(A[1]==1'b1) begin Y=3'b001; VALID=1'b1; end
+ else if(A[0]==1'b1) begin Y=3'b000; VALID=1'b1; end
+ else begin Y=3'bxxx; VALID=1'b0; end
+
+ end
+endmodule 

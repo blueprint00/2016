@@ -1,0 +1,15 @@
+{C:/Users/KimAYeon/Computer Architecture/aaaaa/a_test.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/aaaaa/a_test.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DIGIT_COM_test
+
+Top level modules:
+	DIGIT_COM_test
+
+} {} {}} {C:/Users/KimAYeon/Computer Architecture/aaaaa/a.v} {1 {vlog -work work -stats=none {C:/Users/KimAYeon/Computer Architecture/aaaaa/a.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pencode
+
+Top level modules:
+	pencode
+
+} {} {}}
